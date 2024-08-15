@@ -142,12 +142,13 @@ header{
 		z-index:  100;
 		top: 5em ;
 		left: 0em;
+		width: 100vw;
 		display: block;
-		background-color: white;
+    text-align: center;
+    font-family: Montserrat;
+		background-color: red;
 		height: 20em;
-		width: 46em;
-		border: 4px solid red;
-		border-radius: 1em;
+	
 		}
 }
 
