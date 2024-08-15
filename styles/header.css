@@ -1,0 +1,174 @@
+body{margin: 0;}
+
+h1 {margin: 0;}
+
+header{
+	
+	display: flex;
+	justify-content: center;
+	height: 5.4em;
+	width: 100%;
+}
+
+.mobile-header-div{
+	display: none;
+}
+.mobile-header-div-DialogIcon{
+	margin: 0;
+	display: none;
+}
+
+.header-div-icon{
+	margin: 0;
+	padding-right: 6em;
+}
+.header-div-icon-img{
+	height: 6em;
+}
+
+
+
+.header-div-text{display: flex;}
+.header-div-text-h2{
+	padding-left: 3em;
+	padding-right: 3em;
+}
+.header-h2{
+	font-size: 1.8em;
+	font-family: Montserrat;
+	color: black;
+	white-space: nowrap;
+}
+
+
+
+
+.header-div-text-h2-Yclygi{
+	display: none;
+}
+.header-div-text-h2-OpenDialogIconYclygi:hover{
+	background-color: red;
+}
+.header-div-text-h2-OpenDialogIconYclygi:hover .header-h2{color: white;}
+.header-div-text-h2-OpenDialogIconYclygi:hover .header-div-text-h2-Yclygi{
+	position: absolute;
+	color: black;
+	z-index:  100;
+	top: 5em ;
+	left: 40em;
+	display: block;
+	background-color: white;
+	height: 20em;
+	width: 70em;
+	border: 4px solid red;
+	border-radius: 1em;
+}
+
+.header-div-text-h2-Contacts{
+	display: none;
+}
+.header-div-text-h2-OpenDialogIconContacts:hover{
+	background-color: red;
+}
+.header-div-text-h2-OpenDialogIconContacts:hover .header-h2{color: white;}
+.header-div-text-h2-OpenDialogIconContacts:hover .header-div-text-h2-Contacts{
+	position: absolute;
+	color: black;
+	top: 5em ;
+	left: 40em;
+	display: block;
+	background-color: white;
+	height: 20em;
+	width: 70em;
+	border: 4px solid red;
+	border-radius: 1em;
+}
+
+.header-div-text-h2-Aboutus{
+	display: none;
+}
+.header-div-text-h2-OpenDialogIconAboutus:hover{
+	background-color: red;
+}
+
+.header-div-text-h2-OpenDialogIconAboutus:hover .header-h2{color: white;}
+.header-div-text-h2-OpenDialogIconAboutus:hover .header-div-text-h2-Aboutus{
+	position: absolute;
+	color: black;
+	z-index:  100;
+	top: 5em ;
+	left: 40em;
+	display: block;
+	background-color: white;
+	height: 20em;
+	width: 70em;
+	border: 4px solid red;
+	border-radius: 1em;
+}
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+	.header-h2{font-size: 1.6em}
+	.header-div-text-h2{
+	padding-left: 3em;
+	padding-right: 3em;
+	}
+}
+@media only screen and (max-width: 860px) {
+	.header-div-text-h2{
+	padding-left: 2.8em;
+	padding-right: 2.8em;
+	}
+	.header-h2{font-size: 1.4em}
+	.header-div-icon-img{
+	height: 5.5em;
+	}
+}
+@media only screen and (max-width: 790px) {
+	header{
+		justify-content: left;
+	}
+	.header-div-text{display: none;}
+	.mobile-header-div{
+		display: block;
+		margin: 0 0 0 auto;
+	}
+	.mobile-header-div-OpenDialogIcon:hover .mobile-header-div-DialogIcon{
+		position: absolute;
+		color: black;
+		z-index:  100;
+		top: 5em ;
+		left: 0em;
+		display: block;
+		background-color: white;
+		height: 20em;
+		width: 46em;
+		border: 4px solid red;
+		border-radius: 1em;
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteiner{
+	background-color: gray;
+	width: 100%;
+	height: 30em;
+}
