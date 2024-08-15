@@ -35,7 +35,7 @@ header{
 }
 .header-h2{
 	font-size: 1.8em;
-	font-family: Montserrat;
+	font-family: Montserrat-BlackItalic;
 	color: black;
 	white-space: nowrap;
 }
@@ -145,7 +145,7 @@ header{
 		width: 100vw;
 		display: block;
     text-align: center;
-    font-family: Montserrat;
+    font-family: Montserrat-BlackItalic;
 		background-color: red;
 		height: 20em;
 	

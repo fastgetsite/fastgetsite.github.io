@@ -1,9 +1,12 @@
 @font-face {
-	font-family: "Montserrat";
+	font-family: "Montserrat-BlackItalic";
+	font-optical-sizing: auto;
 	font-weight: 900;
 	font-style: italic;
-    src: url('fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
-	src: url('fonts/Montserrat-Black.woff') format('woff');
-	src: url('fonts/Montserrat-Black.ttf') format('ttf');
-	src: url('fonts/Montserrat-Black.woff2') format('woff2');
+	src: local("Montserrat-BlackItalic"),
+	   /* Если не получилось, загрузит woff2 */
+	   url("../fonts/Montserrat-BlackItalic.woff2") format("woff2"),
+	   /* Если браузер не поддерживает woff2, загрузит woff */
+	   url("../fonts/Montserrat-BlackItalic.woff") format("woff");
 }
+	
