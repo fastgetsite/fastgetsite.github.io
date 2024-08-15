@@ -8,6 +8,7 @@
 	   url("../fonts/Montserrat-BlackItalic.woff2") format("woff2"),
 	   /* Если браузер не поддерживает woff2, загрузит woff */
 	   url("../fonts/Montserrat-BlackItalic.woff") format("woff"),
+	   url("../fonts/Montserrat-BlackItalic.svg") format("svg"),
 	   url("../fonts/Montserrat-BlackItalic.ttf") format("ttf");
 }
 	
