@@ -1,1 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+@font-face {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: italic;
+    src: url('fonts/Montserrat-Italic-VariableFont_wght.ttf');
+    src: local('☺'), 
+         url('fonts/Montserrat-Black.woff') format('woff'),
+         url('fonts/Montserrat-Black.ttf') format('ttf'),
+         url('fonts/Montserrat-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal; 
+}
