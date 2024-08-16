@@ -27,7 +27,7 @@ body{
 .cardtwo{}
 
 .cardone-h1{
-	padding-top: 1em;
+	margin-top: 2vw;
 	font-family: Montserrat-BlackItalic;
 	color: black;
 }
@@ -49,6 +49,14 @@ body{
 	color: red;
 	font-size: 2vw;
 	font-family: Montserrat-BlackItalic;
+}
+
+.main-cardone-TextConteiner-DivBorder{
+	border-bottom: 0.1vw solid black;
+}
+
+.main-cardone-AConteiner{
+	margin-top: 1vw;
 }
 
 @media only screen and (max-width: 1345px) {
@@ -92,7 +100,7 @@ body{
 	.conteiner{
 		height: 60vw;
 	}
-	.cardone-h1{font-size: 4.7vw}
+	.cardone-h1{font-size: 4.7vw; margin-top: 8vw;}
 
 	.center-banner{
 		margin-top: 70vw;
