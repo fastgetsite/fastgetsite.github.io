@@ -351,6 +351,25 @@ footer{
 		font-size: 3.2vw;
 	}
 
+
+
+
+	.conteiner-reklamodatelam-name{
+		font-size: 2.3vw;
+	}
+	.conteiner-reklamodatelam-name-two{
+		font-size: 4vw;
+	}
+	.conteiner-reklamodatelam-nonCenter-textOne-h2{
+		font-size: 4vw;
+	}
+	.conteiner-reklamodatelam-nonCenter-LinkCall{
+		width: 66vw;
+	}
+	.conteiner-reklamodatelam-nonCenter-LinkCall-a-h1{
+		font-size: 4vw;
+	}
+
 }
 
 @media only screen and (max-width: 640px) {
