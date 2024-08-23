@@ -179,10 +179,10 @@ header{
 	}
 
 	.infoPeklama-card-h1{
-		font-size: 3.1vw;
+		font-size: 5.1vw;
 	}
 	.infoPeklama-CardImageOne-img{
-		width: 14vw;
+		width: 19vw;
 	}
 	.infoPeklama-CardImageOne{
 		margin-left: 0vw;
@@ -193,14 +193,14 @@ header{
 		text-align: center;
 	}
 	.infoPeklama-CardImageTwo-img{
-		width: 16vw;
+		width: 26vw;
 	}
 	.infoPeklama-CardImageThree{
 		margin-left: 0vw;
 		text-align: center;
 	}
 	.infoPeklama-CardImageThree-img{
-		width: 10.4vw;
+		width: 17vw;
 	}
 
 

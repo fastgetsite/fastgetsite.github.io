@@ -266,16 +266,90 @@ footer{
 }
 
 @media only screen and (max-width: 770px) {
+	.conteiner{
+		min-height: 126vw;
+	}
 	.conteiner-reklam-text-h1{
 		font-size: 5vw;
 	}
 	.conteiner-cardConteiner{
 		display: flex;
 		flex-wrap: wrap;
-		max-width: 60vw;
+		
+	}
+
+	.mainCard{
+		width: 44vw;
+		min-height: 58vw;
+	}
+
+	.conteiner-cardYslygiName{
+		width: 40vw;
+	}
+	.conteiner-cardYslygiName-h1{
+		font-size: 3.9vw;
+	}
+	.conteiner-cardYslygiPages{
+		width: 40vw;
+	}
+	.conteiner-cardYslygiPages-h1{
+		font-size: 3.2vw;
+	}
+
+	.conteiner-cardYslygiTextinfo-p{
+		font-size: 3vw;
+	}
+	.conteiner-cardYslygiTime{
+		width: 40vw;
+	}
+	.conteiner-cardYslygiTime-h2{
+		font-size: 3vw;
+	}
+	.conteiner-cardYslygiPrice-h1{
+		font-size: 3vw;
+	}
+	.conteiner-cardYslygilink{
+		width: 35vw;
+	}
+	.conteiner-cardYslygilink-a-h1{
+		font-size: 4vw;
 	}
 
 
+
+	.conteiner-margin-one{
+		margin-top: 15vw;
+	}
+	.conteiner-margin-two{
+		margin-top: 8.2vw;
+	}
+	.conteiner-margin-three{
+		margin-top: 8vw;
+	}
+	.conteiner-margin-four{
+		margin-top: 4.6vw;
+	}
+
+
+
+	.href-conteiner-consul-info{
+		min-height: 20vw;
+	}
+
+	.href-conteiner-consul-info-button{
+		width: 50vw;
+	}
+	.href-conteiner-consul-info-button-h1{
+		font-size: 4vw;
+	}
+
+	.href-conteiner-consul-info-conteiner-h1-one{
+		font-size: 3.2vw;
+	}
+
+	.href-conteiner-consul-info-conteiner-h1-two{
+		font-size: 3.2vw;
+	}
 
 }
 
