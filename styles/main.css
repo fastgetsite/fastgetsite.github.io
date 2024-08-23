@@ -267,7 +267,7 @@ footer{
 
 @media only screen and (max-width: 770px) {
 	.conteiner{
-		min-height: 126vw;
+		min-height: 130vw;
 	}
 	.conteiner-reklam-text-h1{
 		font-size: 5vw;
