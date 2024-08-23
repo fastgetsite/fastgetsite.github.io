@@ -1,110 +1,123 @@
 body{
 	margin: 0;
+	background-color: black;
+
 }
 
 h1 {margin: 0;}
 
+
+
 header{
-	margin-top: 2em;
 	display: flex;
-	margin-left: 2.5vw;
+	margin: 2vw	 auto;
 	justify-content: center;
 	height: 5.4em;
-	width: 95vw;
-	background-color: white;
+	width: 98%;
+	background-color: black;
 	box-shadow:
     inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-    0 0 0 2px rgb(255, 255, 255),
+    0 0 0 2px #656565,
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 
+.marginH2-header{
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+
 .header-div-icon{
 	margin: 0;
-	padding-right: 6em;
+	margin-right: 22%;
 }
+
+
 .header-div-icon-img{
 	height: 6em;
 }
 
-
+.header-div-call{
+	/*margin-left: 7vw;*/
+	display: flex;
+}
 
 .header-div-text{display: flex;}
 .header-div-text-h2{
-	padding-left: 3em;
-	padding-right: 3em;
+	padding-left: 3vw;
+	display: flex;
+  justify-content: center;
+}
+.header-div-text-h2-call{
+	padding-left: 3vw;
 }
 .header-h2{
-	font-size: 1.8em;
+	font-size: 1.5vw;
 	font-family: Montserrat-BlackItalic;
-	color: black;
+	color: white;
 	white-space: nowrap;
 }
 
-
-
-
-.header-div-text-h2-Yclygi{
-	display: none;
+.header-h2-call{
+	margin-top: 1vw;
+	font-size: 1vw;
+	font-family: Montserrat-BlackItalic;
+	color: #ff3300;
+	white-space: nowrap;
 }
-.header-div-text-h2-OpenDialogIconYclygi:hover{
-	background-color: red;
+
+.header-infoPeklama{
+	background-color: black;
+	margin-top: 0.5vw;
+	display: flex;
+	justify-content: center;
+	min-height: 13vw;
+	padding-top: 0.5vw;
 }
-.header-div-text-h2-OpenDialogIconYclygi:hover .header-h2{color: white;}
-.header-div-text-h2-OpenDialogIconYclygi:hover .header-div-text-h2-Yclygi{
-	position: absolute;
-	color: black;
-	z-index:  100;
-	top: 7em ;
-	left: 40em;
+
+.header-infoPeklama-card{
 	display: block;
-	background-color: white;
-	height: 20em;
-	width: 70em;
-	border: 4px solid red;
-	border-radius: 1em;
+	margin: 0vw 4vw;
+}
+.infoPeklama-card-h1{
+	font-size: 2vw;
+	color: #ff3300;
+}
+/* card 1 */
+.infoPeklama-CardImageOne{
+	margin-left: 5vw;
 }
 
-.header-div-text-h2-Contacts{
-	display: none;
+.infoPeklama-CardImageOne-img{
+	width: 7vw;
 }
-.header-div-text-h2-OpenDialogIconContacts:hover{
-	background-color: red;
-}
-.header-div-text-h2-OpenDialogIconContacts:hover .header-h2{color: white;}
-.header-div-text-h2-OpenDialogIconContacts:hover .header-div-text-h2-Contacts{
-	position: absolute;
-	color: black;
-	top: 7em ;
-	left: 40em;
-	display: block;
-	background-color: white;
-	height: 20em;
-	width: 70em;
-	border: 4px solid red;
-	border-radius: 1em;
+/* card 2 */
+
+.cardmarginone{
+	margin-top: 1.5vw;
 }
 
-.header-div-text-h2-Aboutus{
-	display: none;
-}
-.header-div-text-h2-OpenDialogIconAboutus:hover{
-	background-color: red;
+.infoPeklama-CardImageTwo{
+	margin-left: 2vw;
 }
 
-.header-div-text-h2-OpenDialogIconAboutus:hover .header-h2{color: white;}
-.header-div-text-h2-OpenDialogIconAboutus:hover .header-div-text-h2-Aboutus{
-	position: absolute;
-	color: black;
-	z-index:  100;
-	top: 7em ;
-	left: 40em;
-	display: block;
-	background-color: white;
-	height: 20em;
-	width: 70em;
-	border: 4px solid red;
-	border-radius: 1em;
+.infoPeklama-CardImageTwo-img{
+	width: 10vw;
+}
+
+/* card 3 */
+
+.cardmarginThree{
+	margin-top: 0.5vw;
+}
+
+.infoPeklama-CardImageThree{
+	margin-left: 3.5vw;
+}
+
+.infoPeklama-CardImageThree-img{
+	width: 7vw;
 }
 
 .header-div-text-h2-Yclygi-TextConteiner{
@@ -116,27 +129,26 @@ header{
 	color: black;
 }
 
-.mobile-header-div{
-	display: none;
-}
-.mobile-header-div-DialogIcon{
-	margin: 0;
+.mobile-header{
 	display: none;
 }
 
 @media only screen and (max-width: 950px) {
-	.header-h2{font-size: 1.6em}
+	.header-h2{font-size: 3vw}
 	.header-div-text-h2{
-	padding-left: 3em;
-	padding-right: 3em;
+		padding-left: 3vw;
+		padding-right: 3vw;
 	}
+	.header-div-icon{
+		margin-right: 1%;
+}
 }
 @media only screen and (max-width: 860px) {
 	.header-div-text-h2{
-	padding-left: 2.8em;
-	padding-right: 2.8em;
+	padding-left: 2.8vw;
+	padding-right: 2.8vw;
 	}
-	.header-h2{font-size: 1.4em}
+	.header-h2{font-size: 3vw}
 	.header-div-icon-img{
 	height: 5.5em;
 	}
@@ -145,28 +157,55 @@ header{
 	header{
 		justify-content: left;
 	}
-	.header-div-text{display: none;}
-	.mobile-header-div{
-		display: block;
-		margin: 0 0 0 auto;
-	}
-	.mobile-header-div-OpenDialogIcon:hover .mobile-header-div-DialogIcon{
-		position: absolute;
-		color: black;
-		z-index:  100;
-		top: 8em ;
-		left: 0em;
-		width: 100vw;
-		display: block;
-    text-align: center;
-    font-family: Montserrat-BlackItalic;
-		background-color: grey;
-		height: 20em;
-	
-		}
 }
 
+@media only screen and (max-width: 770px) {
+	.header-pc-off{
+		display: none;
+	}
 
+	.mobile-header{
+		display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+	}
+
+	.mobile-header-bannerOne{
+		margin: 0 auto;
+	}
+	.mobile-header-bannerTwoAndThree{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.infoPeklama-card-h1{
+		font-size: 3.1vw;
+	}
+	.infoPeklama-CardImageOne-img{
+		width: 14vw;
+	}
+	.infoPeklama-CardImageOne{
+		margin-left: 0vw;
+		text-align: center;
+	}
+	.infoPeklama-CardImageTwo{
+		margin-left: 0vw;
+		text-align: center;
+	}
+	.infoPeklama-CardImageTwo-img{
+		width: 16vw;
+	}
+	.infoPeklama-CardImageThree{
+		margin-left: 0vw;
+		text-align: center;
+	}
+	.infoPeklama-CardImageThree-img{
+		width: 10.4vw;
+	}
+
+
+
+}
 
 
 
