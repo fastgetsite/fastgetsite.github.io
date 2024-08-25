@@ -160,6 +160,14 @@ header{
 }
 
 @media only screen and (max-width: 770px) {
+	.header-div-text{
+		display: none;
+	}
+
+	.header-div-call{
+		display: none;
+	}
+
 	.header-pc-off{
 		display: none;
 	}
