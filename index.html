@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/fonts.css">
 	<link rel="stylesheet" type="text/css" href="styles/header.css">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script src="call.js"></script>
 </head>
 <body>
 	<header>
@@ -27,7 +28,7 @@
 				</div>
 			</a>
 			<!-- Кнопка контакты -->
-			<a class="header-div-text-h2-OpenDialogIconContacts marginH2-header">
+			<a href="#conteiner-contacts" class="header-div-text-h2-OpenDialogIconContacts marginH2-header">
 				<div class="header-div-text-h2">
 					<h2 class="header-h2">Контакты</h2>
 				</div>
@@ -309,16 +310,47 @@
 		</div>
 	</div>
 	<!-- Пункт контакты -->
-	<div class="conteiner-contacts">
+	<div id="conteiner-contacts" class="conteiner-contacts">
 		<div class="conteiner-contacts-textName">
 			<h1 class="conteiner-contacts-textName-h1">Контакты:</h1>
 		</div>
 		<div class="conteiner-contacts-textInfo">
-			
+			<h1 class="conteiner-contacts-textInfo-h1">Номер телефона:</h1>
+			<a class="conteiner-contacts-textInfo-a" href="">+375333216445</a>
 		</div>
 	</div>
+	<form id="tg">
+		<div>
+			<input type="text" name="name">
+		</div>
+		<div>
+			<input type="text" name="number">
+		</div>
+		<button type="submit">Отправить</button>
+	</form>
 	<footer>
 		
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script>
+		const TOKEN = "7500466295:AAHvJ3OCIAiY8MN1XCbnMGtFrBTbgBF3X24";
+		const CHAT_ID = " -1002206328381";
+		const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
+		document.getElementById('tg').addEventListener('submit', function(e) {
+			e.preventDefault();
+
+			let message = `<b>Заявка с сайта!</b>\n`;
+			message += `<b>Отправитель: </b> ${ this.name.value }\n`;
+			message += `<b>Номер телефона: </b> ${ this.number.value }`;
+
+			console.log(message);
+
+			axios.post(URI_API, {
+				chat_id: CHAT_ID,
+				parse_mode: `html`,
+				text: message
+			})
+		})
+	</script>
 </body>
 </html>

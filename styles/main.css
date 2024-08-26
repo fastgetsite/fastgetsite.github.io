@@ -1,3 +1,7 @@
+a{
+	text-decoration: none;
+}
+
 .conteiner{
 	margin-top: 1vw;
 	display: block;
@@ -237,8 +241,22 @@
 }
 
 .conteiner-contacts-textInfo{
-
+	margin-top: 1.3vw;
+	color: white;
+	display: flex;
+	justify-content: center;
 }
+
+.conteiner-contacts-textInfo-h1{
+	font-size: 1.8vw;
+}
+
+.conteiner-contacts-textInfo-a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.8vw;
+}
+
 
 footer{
 	display: flex;
