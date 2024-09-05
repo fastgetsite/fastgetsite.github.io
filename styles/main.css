@@ -544,8 +544,6 @@ footer{
 
 @media only screen and (max-width: 770px) {
 
-
-
 	.conteiner{
 		min-height: 130vw;
 	}
@@ -558,10 +556,13 @@ footer{
 	}
 
 
+
 	.mainCard{
 		width: 44vw;
 		min-height: 58vw;
 	}
+
+
 
 	.conteiner-cardYslygiName{
 		width: 40vw;
@@ -575,7 +576,6 @@ footer{
 	.conteiner-cardYslygiPages-h1{
 		font-size: 3.2vw;
 	}
-
 	.conteiner-cardYslygiTextinfo-p{
 		font-size: 3vw;
 	}
@@ -612,10 +612,10 @@ footer{
 
 
 
+
 	.href-conteiner-consul-info{
 		min-height: 20vw;
 	}
-
 	.href-conteiner-consul-info-button{
 		width: 50vw;
 	}
@@ -653,13 +653,11 @@ footer{
 
 
 
-
 	.form-conteiner-contH3-h3{
-	margin: 0.1vw;
- 	margin-left: 4vw;
- 	font-size: 2vw;
+		margin: 0.1vw;
+	 	margin-left: 4vw;
+	 	font-size: 2vw;
 	}
-
 	.form-conteiner-contInput-input{
 		height: 4vw;
 		width: 40vw;
