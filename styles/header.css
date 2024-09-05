@@ -41,6 +41,7 @@ header{
 .header-div-call{
 	/*margin-left: 7vw;*/
 	display: flex;
+	background-color: black;
 }
 
 .header-div-text{display: flex;}
@@ -133,6 +134,10 @@ header{
 	display: none;
 }
 
+.header-mobile-call{
+	display: none;
+}
+
 @media only screen and (max-width: 950px) {
 	.header-h2{font-size: 3vw}
 	.header-div-text-h2{
@@ -212,6 +217,25 @@ header{
 	}
 
 
+
+
+
+
+
+	.header-mobile-call{
+		margin-top: 2vw;
+		margin-right: 1vw;
+		text-align: center;
+		margin-left: auto;
+		display: block;
+	}
+	.header-mobile-call-a{
+
+	}
+
+	.header-mobile-call-a-img{
+			width: 7vw;
+	}
 
 }
 
