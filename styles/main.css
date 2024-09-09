@@ -656,13 +656,17 @@ footer{
 	.form-conteiner-contH3-h3{
 		margin: 0.1vw;
 	 	margin-left: 4vw;
-	 	font-size: 2vw;
+	 	font-size: 4vw;
+
 	}
 	.form-conteiner-contInput-input{
-		height: 4vw;
-		width: 40vw;
+		height: 7vw;
+		width: 70vw;
+		border-radius: 4vw;
 	}
-
+	.form-conteiner-contInput-input::placeholder{
+		font-size: 4vw;
+	}
 	.conteiner-contacts-one-h1{
 		font-size: 6vw;
 	}
@@ -692,6 +696,16 @@ footer{
 
 	.conteiner-contacts-two-imageDiv-img{
 		width: 10vw;
+	}
+
+	.modal_button_submit{
+		width: 30vw;
+		height: 12vw;
+		border-radius: 3vw;
+	}
+
+	.modal_button_submit-button{
+		font-size: 3.5vw;
 	}
 
 }
