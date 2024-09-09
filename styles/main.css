@@ -548,7 +548,7 @@ footer{
 		min-height: 130vw;
 	}
 	.conteiner-reklam-text-h1{
-		font-size: 5vw;
+		font-size: 8vw;
 	}
 	.conteiner-cardConteiner{
 		display: flex;
@@ -635,7 +635,7 @@ footer{
 
 
 	.conteiner-reklamodatelam-name{
-		font-size: 2.3vw;
+		font-size: 3vw;
 	}
 	.conteiner-reklamodatelam-name-two{
 		font-size: 4vw;
@@ -661,6 +661,37 @@ footer{
 	.form-conteiner-contInput-input{
 		height: 4vw;
 		width: 40vw;
+	}
+
+	.conteiner-contacts-one-h1{
+		font-size: 6vw;
+	}
+
+	.conteiner-contacts-two-contacts-inst-h3Div-h3{
+		font-size: 6vw;
+	}
+	.conteiner-contacts-two-contacts-number-h3Div-h3{
+		font-size: 6vw;
+	}
+
+	.conteiner-contacts-two-imageDiv{
+		margin-left: 10vw;
+	}
+
+	.conteiner-contacts-two-contacts-number-imgDiv-img{
+		width: 8vw;
+	}
+	.conteiner-contacts-two-contacts-inst-imgDiv-img{
+		width: 8vw;
+	}
+
+	.footer-conteiner-h1Div-h1{
+		font-size: 5vw;
+		margin: 0vw 4vw;
+	}
+
+	.conteiner-contacts-two-imageDiv-img{
+		width: 10vw;
 	}
 
 }
