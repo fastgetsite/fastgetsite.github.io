@@ -296,7 +296,7 @@ a{
 
 .conteiner-contacts-two-imageDiv{
 	text-align: center;
-	margin-left: 60vw;
+	margin-left: auto;
 }
 
 .conteiner-contacts-two-imageDiv-img{
@@ -598,16 +598,16 @@ footer{
 
 
 	.conteiner-margin-one{
-		margin-top: 15vw;
+		margin-top: auto;
 	}
 	.conteiner-margin-two{
-		margin-top: 8.2vw;
+		margin-top: auto;
 	}
 	.conteiner-margin-three{
-		margin-top: 8vw;
+		margin-top: auto;
 	}
 	.conteiner-margin-four{
-		margin-top: 4.6vw;
+		margin-top: auto;
 	}
 
 
