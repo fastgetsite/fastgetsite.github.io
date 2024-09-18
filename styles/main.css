@@ -33,6 +33,7 @@ a{
 	margin-top: 0.5vw;
 }
 .conteiner-cardYslygiName{
+	margin: 0 auto;
 	width: 15vw;
 	border-bottom: 0.1vw solid black;
 }
@@ -42,6 +43,7 @@ a{
 }
 
 .conteiner-cardYslygiPages{
+	margin: 0 auto;
 	width: 15vw;
 	border-bottom: 0.1vw solid black;
 }
