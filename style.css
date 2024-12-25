@@ -61,9 +61,9 @@ body{
 
 .h3-textoplata {
     margin: 0; /* Убирает отступы у заголовков */
-    font-size: 1.4em; /* Пример изменения размера текста */
+    font-size: 1em; /* Пример изменения размера текста */
     font-family: "Roboto", serif;
-	font-weight: 500;
+	font-weight: 480;
 	font-style: normal;	
 }
 
