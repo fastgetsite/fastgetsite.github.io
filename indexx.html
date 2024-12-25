@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>pay2.cashewpay.by</title>
+</head>
+<body>
+
+	<section class="header">
+		<div class="conteiner-header">
+			<div><img class="conteiner-header-div-img" src="cashew.png"></div>
+		</div>
+	</section>
+	<section class="main">
+		<div class="main-conteiner">
+			<div class="main-conteiner-divQr">
+				<video width="400" height="400" src="qr.mp4" id="video" autoplay muted loop></video>
+				<script type="text/javascript">
+					const video = document.getElementById("video");
+					video.addEventListener("play", handleFirstPlay, false);
+
+					let hasPlayed = false;
+					function handleFirstPlay(event) {
+					  if (!hasPlayed) {
+					    hasPlayed = true;
+
+					    // Remove listener so this only gets called once.
+					    const vid = event.target;
+					    vid.removeEventListener("play", handleFirstPlay);
+
+					    // Start whatever you need to do after first playback has started
+					  }
+					}
+				</script>
+			</div>
+			<div class="main-conteiner-divText mrglef">
+				<h4 class="h4-textoplata">Получатель:</h4>
+				<div style="display: flex; flex-wrap: wrap;">
+						<h3 class="h3-textoplata">Оплата проезда в&nbsp;</h3>
+						<h3 id="h3avtotral" class="h3-textoplata">троллейбусе</h3>
+						<h3 class="h3-textoplata">,&nbsp;</h3>
+						<h3 class="h3-textoplata">гар. номер&nbsp;</h3>
+						<h3 id="h3garagenumber" class="h3-textoplata">8</h3>
+						<h3 class="h3-textoplata">&nbsp;(билет на одну поездку: 0.8 руб)</h3>
+				</div>
+				<h3 class="h3-textoplata">г. Брест</h3>
+				<h3 class="h3-textoplata">КТУП «Брестгортранс»</h3>
+			</div>
+
+
+			<div class="main-activity mrglef">
+				<div class="main-activity-conteiner since">
+					<div class="main-activity-conteiner-divText"><h4 class="h4-textoplata">Активен с:</h4></div>
+					<div class="main-activity-conteiner-divDate">
+						<div style="display: flex;">
+							<h3 id="sinceh3textjsDate" class="h3-textoplata">День</h3>
+							<h3 class="h3-textoplata">.</h3>
+							<h3 id="sinceh3textjsMonth" class="h3-textoplata">Месяц</h3>
+							<h3 class="h3-textoplata">.</h3>
+							<h3 id="sinceh3textjsfullyear" class="h3-textoplata">Год</h3>&nbsp;
+						</div>
+						<div style="display: flex;">
+							<h3 id="sinceh3textjsHourse" class="h3-textoplata">Часы</h3>
+							<h3 class="h3-textoplata">:</h3>
+							<h3 id="sinceh3textjsMinutes" class="h3-textoplata">Минуты</h3>
+						</div>
+					</div>
+				</div>
+				<div class="main-activity-conteiner past">
+					<div class="main-activity-conteiner-divText"><h4 class="h4-textoplata">Активен до:</h4></div>
+					<div class="main-activity-conteiner-divDate">
+						<div style="display: flex;">
+							<h3 id="pasth3textjsDate" class="h3-textoplata">День</h3>
+							<h3 class="h3-textoplata">.</h3>
+							<h3 id="pasth3textjsMonth" class="h3-textoplata">Месяц</h3>
+							<h3 class="h3-textoplata">.</h3>
+							<h3 id="pasth3textjsfullyear" class="h3-textoplata">Год</h3>&nbsp;
+						</div>
+						<div style="display: flex;">
+							<h3 id="pasth3textjsHourse" class="h3-textoplata">Часы</h3>
+							<h3 class="h3-textoplata">:</h3>
+							<h3 id="pasth3textjsMinutes" class="h3-textoplata">Минуты</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="">
+					<h4 class="h4-textoplata">Описание:</h4>
+					<h3 class="h3-textoplata">#5fs40f24355d8deb#</h3>
+				</div>
+
+				<div style="margin-bottom: 3em;" class="">
+					<h4 class="h4-textoplata">Цена:</h4>
+					<h3 class="h3-textoplata">0.8 BYN</h3>
+				</div>
+
+				<script type="text/javascript">
+					let currentDate = new Date();
+					
+					document.getElementById('sinceh3textjsfullyear').textContent = currentDate.getFullYear();
+					date = currentDate.getMonth() + 1;
+					document.getElementById('sinceh3textjsMonth').textContent = date;
+					document.getElementById('sinceh3textjsDate').textContent = currentDate.getDate();
+
+					document.getElementById('pasth3textjsfullyear').textContent = currentDate.getFullYear();
+					document.getElementById('pasth3textjsMonth').textContent = date;
+					document.getElementById('pasth3textjsDate').textContent = currentDate.getDate();
+
+					getminutes = currentDate.getMinutes();
+					gethourse = currentDate.getHours();
+
+					document.getElementById('sinceh3textjsHourse').textContent = gethourse;
+
+					if (getminutes <= 9) {
+						getminutesss = '0' + getminutes;
+						document.getElementById('sinceh3textjsMinutes').textContent = getminutesss;
+					}
+					else{
+						document.getElementById('sinceh3textjsMinutes').textContent = getminutes;
+					}
+					
+
+					pastplushourse = gethourse + 1;
+					pastplusminutes = getminutes + 45;
+
+					if (pastplusminutes >= 60) {
+						pastplushourse++;
+						pastplusminutes = pastplusminutes - 60;
+						if (pastplusminutes >= 60) {
+							pastplushourse++;
+							pastplusminutes = pastplusminutes - 60;
+						}
+						else{
+							if (pastplusminutes <= 9) {
+								pastplusminutes = '0' + pastplusminutes;
+							}
+							document.getElementById('pasth3textjsHourse').textContent = pastplushourse;
+							document.getElementById('pasth3textjsMinutes').textContent = pastplusminutes;
+						}
+					}
+					else{
+						if (pastplusminutes <= 9) {
+							pastplusminutes = '0' + pastplusminutes;
+						}
+						document.getElementById('pasth3textjsHourse').textContent = pastplushourse;
+						document.getElementById('pasth3textjsMinutes').textContent = pastplusminutes;
+					}
+			
+					console.log(currentDate.getMonth());
+					console.log(currentDate.getDate());
+					console.log(currentDate.getHours());
+					console.log(currentDate.getMinutes());
+					console.log(currentDate.getSeconds());
+
+				</script>
+			</div>
+
+
+		</div>
+		
+	</section>
+	<section class="footer">
+		
+	</section>
+
+
+
+
+	<section id="secinputa" class="sec-inputa">
+		<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+			<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 8em;">
+				<div><h2>Введите гаражный номер</h2></div>
+				<div><input style="width: 15em; height: 4em;" id="inputgarage" placeholder="гаражный номер"></div>
+			</div>
+			<div style="margin-top: 3em;">
+				<select id="selectid" style="font-size: 2em;">
+					<option value="троллейбусе">троллейбусе</option>
+					<option value="автобусе">автобусе</option>
+				</select>
+			</div>
+			<div><button id="bthdatainsert" class="bthdatainsert"><h2>Подтвердить</h2></button></div>
+		</div>
+	</section>
+	<script type="text/javascript">
+		document.getElementById('bthdatainsert').addEventListener('click', () => {
+			
+			document.getElementById('h3avtotral').textContent = document.getElementById('selectid').value;
+			document.getElementById('h3garagenumber').textContent = document.getElementById('inputgarage').value;
+			document.getElementById('secinputa').style.display = "none";
+		});
+	</script>
+
+
+</body>
+</html>

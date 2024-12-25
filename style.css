@@ -1,0 +1,178 @@
+
+.sec-inputa{
+	position: fixed;
+	background-color: green;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 999999999;
+}
+
+
+
+
+body{
+	margin: 0px 0px;
+}
+
+.header{
+	z-index: 2;
+	box-shadow: 0em 0em 1em 0em rgb(34 60 80 / 20%);
+}
+
+.conteiner-header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.conteiner-header-div-img{
+	margin-top: 2.6em;
+	margin-bottom: 0.6em;
+	height: 3.4em;
+}
+
+.main{
+	
+	background-color: #f0f2f5;
+	padding: 1.7em 1em;
+}
+
+.main-conteiner{
+	background-color: white;
+	padding-bottom: 0.1em;
+	border-radius: 0.7em;
+	/*-webkit-box-shadow: 0em 0em 0.5em 0.03em rgba(34, 60, 80, 0.3)*/
+	-moz-box-shadow: 0em 0em 1em 0em rgb(34 60 80 / 17%);
+	box-shadow: 0em 0em 1em 0em rgb(34 60 80 / 17%);
+}
+
+.main-conteiner-divQr{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mrglef{
+	margin-left: 1em;
+}
+
+.h3-textoplata {
+    margin: 0; /* Убирает отступы у заголовков */
+    font-size: 1.4em; /* Пример изменения размера текста */
+    font-family: "Roboto", serif;
+	font-weight: 500;
+	font-style: normal;	
+}
+
+.h4-textoplata{
+	margin: 0.4em 0px;
+	font-family: "Roboto", serif;
+	font-weight: 400;
+	font-style: normal;			
+	color: gray;
+	font-size: 1.2em;
+}
+
+.main-conteiner-divText{
+
+}
+
+.main-activity-conteiner-divDate{
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: italic;
+}
