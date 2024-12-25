@@ -22,7 +22,6 @@ a{
 .mainCard{
 	display: flex;
 	flex-direction: column;
-  
 	width: 18vw;
 	min-height: 24.6vw;
 	border-radius: 0.3vw;
@@ -550,7 +549,7 @@ footer{
 @media only screen and (max-width: 770px) {
 
 	.conteiner{
-		min-height: 130vw;
+		min-height: 136vw;
 	}
 	.conteiner-reklam-text-h1{
 		font-size: 8vw;
@@ -563,6 +562,7 @@ footer{
 
 
 	.mainCard{
+		margin-top: 2vw;
 		width: 44vw;
 		min-height: 58vw;
 	}
@@ -688,6 +688,15 @@ footer{
 	.conteiner-contacts-one-h1{
 		font-size: 6vw;
 	}
+	.conteiner-contacts-two-contacts{
+		text-align: center;
+	}
+	.conteiner-contacts-two{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0vw auto;
+	}
 
 	.conteiner-contacts-two-contacts-inst-h3Div-h3{
 		font-size: 6vw;
@@ -697,7 +706,7 @@ footer{
 	}
 
 	.conteiner-contacts-two-imageDiv{
-		margin-left: 10vw;
+		display: none;
 	}
 
 	.conteiner-contacts-two-contacts-number-imgDiv-img{

@@ -45,6 +45,7 @@ header{
 }
 
 .header-div-text{display: flex;}
+
 .header-div-text-h2{
 	padding-left: 3vw;
 	display: flex;
@@ -59,6 +60,13 @@ header{
 	color: white;
 	white-space: nowrap;
 }
+
+.header-h2:hover{
+	transition: .2s;
+	color: #ff3300;
+	text-shadow: #ff3300;
+}
+
 
 .header-h2-call{
 	margin-top: 1vw;
@@ -165,6 +173,11 @@ header{
 }
 
 @media only screen and (max-width: 770px) {
+
+	.header-div-icon-img{
+		height: 12vw;
+	}
+
 	.header-div-text{
 		display: none;
 	}
@@ -192,10 +205,10 @@ header{
 	}
 
 	.infoPeklama-card-h1{
-		font-size: 5.1vw;
+		font-size: 3.7vw;
 	}
 	.infoPeklama-CardImageOne-img{
-		width: 19vw;
+		width: 15vw;
 	}
 	.infoPeklama-CardImageOne{
 		margin-left: 0vw;
@@ -206,20 +219,22 @@ header{
 		text-align: center;
 	}
 	.infoPeklama-CardImageTwo-img{
-		width: 26vw;
+		width: 21vw;
 	}
 	.infoPeklama-CardImageThree{
 		margin-left: 0vw;
 		text-align: center;
 	}
 	.infoPeklama-CardImageThree-img{
-		width: 17vw;
+		width: 12vw;
 	}
 
 
 
 
-
+header{
+	height: 11vw;
+}
 
 
 	.header-mobile-call{
@@ -237,7 +252,12 @@ header{
 	}
 
 	.header-mobile-call-a-img{
-			width: 13vw;
+			margin: auto 0vw;
+			width: 9vw;
+	}
+
+	.maincard {
+		margin-bottom: 3vw;
 	}
 
 }
