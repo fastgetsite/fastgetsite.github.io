@@ -36,7 +36,7 @@ body{
 .main{
 	
 	background-color: #f0f2f5;
-	padding: 1.7em 1em;
+	padding: 1.7em 1.7em 7em 1.7em;
 }
 
 .main-conteiner{
@@ -83,6 +83,20 @@ body{
 	display: flex;
 }
 
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: -3.2em;
+	background-color: #2c77bd;
+	height: 10em;
+}
+
+.h2footer{
+	color: white;
+	margin: 0.1em;
+}
 
 
 
